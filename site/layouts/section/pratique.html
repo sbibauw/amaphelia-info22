@@ -1,0 +1,45 @@
+{{ define "main" }}
+
+{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title) }}
+
+{{ partial "4-up" .Params.intro }}
+
+
+{{ with .Params.main }}
+<!-- <div class="mw7 center">
+  <div class="mw6 ph3 mb3">
+    <h3 class="f3 b lh-title mb2">{{ .heading }}</h3>
+    <p>{{ .description }}</p>
+  </div>
+</div> -->
+
+<!-- Image grid -->
+<!-- {{ partial "image-grid-2" . }} -->
+{{ end }}
+
+<div class="mw7 center flex db pb4">
+  <div class="w-50-ns tc">
+    <a href="/distributions" class="btn raise">Lieux et jours de distribution</a>
+  </div>
+  <div class="w-50-ns tc">
+    <a href="/prix" class="btn raise">Prix</a>
+  </div>
+</div>
+
+
+<div class="pb4">
+  {{ range .Params.testimonials }}
+    {{ partial "blockquote" . }}
+  {{ end }}
+</div>
+
+<!-- Full-width image -->
+<img src="{{ .Params.full_image }}" alt="" class="db w-100">
+
+<!-- {{ partial "table" .Params.pricing }} -->
+
+<div class="cms">
+  {{ .Content }}
+</div>
+
+{{ end }}

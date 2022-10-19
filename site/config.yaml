@@ -1,0 +1,9 @@
+baseurl: /
+languageCode: fr-be
+languageLang: fr
+
+title: AMAP Helia
+subtitle: "Des citoyens solidaires avec leur producteur"
+copyright: "(cc) AMAP Helia, 2022"
+
+disableKinds: [RSS, taxonomy, taxonomyTerm]

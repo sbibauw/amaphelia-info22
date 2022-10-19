@@ -1,19 +1,29 @@
 ---
-title: "Contact"
-logo: "/img/logo.svg"
-contact_entries:
-  - heading: Location
-    text: "3153 Lynn Avenue, South San Francisco, California 94080"
-  - heading: Working hours
-    text: "Monday – Saturday: 9AM – 7PM We’re closed on Sundays"
+title: Contact
+logo: /img/logo.svg
+image: /img/q-nico-visite.jpg
+contact_entries: []
 ---
 
-We’d love to get in touch with you and hear your ideas and
-questions. We strive to grow and improve constantly and your feedback
-is valuable for us.
+Vous pouvez contacter l'AMAP soit via son producteur, Nicolas, soit via son secrétariat (amapien·ne bénévole).
 
-<h3 class="f4 b lh-title mb2">How can I get…?</h3>
+## Le producteur
 
-You can also use the form below for any inquiries about coffee
-availability, monthly subscriptions and scheduling a 1-on-1 session
-with our baristas. Don’t be shy, drop us a line!
+**Nicolas Deeker**<br>
+128b/11 rue de la Baraque<br>
+1348 Louvain-la-Neuve<br>
+[lesjardinsdedounia@gmail.com](mailto:lesjardinsdedounia@gmail.com)<br>
+Tél. 0494 75 80 19
+
+## Le secrétariat de l'AMAP
+
+**Sandy De Wilde**<br>
+[amap.helia@gmail.com](mailto:amap.helia@gmail.com)
+
+_Merci de ne pas adresser les soucis "urgents" à cette adresse qui n'est pas relevée quotidiennement !_
+
+## Le potager
+
+Le [**potager**](http://www.les-jardins-de-dounia.be) se situe à 1325 Corroy-le-Grand : chemin de Vieusart (avant le numéro 3) ensuite suivre les panneaux "Ferme du château". Les serres sont sur votre droite quand vous arrivez vers la drève de la ferme. 
+
+Coordonnées GPS : 50.668715 °N, 4.666974 °E
