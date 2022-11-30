@@ -5,8 +5,11 @@
 
 		<div class="flex-ns flex-wrap mhn2-ns mb3">
 			{{ range .blurbs }}
-				<div class="ph2-ns w-50-ns mb4">
-					<img src="{{ .image }}" alt="" class="center db mb3" style="width: 240px">
+				<div class="ph3-ns w-50-ns mb4">
+					<img src="{{ .image }}" alt="" class="h5 mw-100 center db mb3">
+					{{ if .heading }}
+					<h3 class="f4 b lh-title mb2">{{.heading}}</h3>
+					{{ end }}
 					<p>{{ .text }}</p>
 				</div>
 			{{ end }}
