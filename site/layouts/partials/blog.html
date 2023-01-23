@@ -4,7 +4,7 @@
 		<h2 class="f3 b lh-title mb3">Dernières nouvelles</h1>
 
 		<div class="w-100 flex mhn1 flex-wrap mb3">
-			{{ range first 4 (where .Pages "Section" "nouvelle") }}
+			{{ range first 4 (where .Site.Pages "Type" "nouvelle") }}
 				<li class="ph1 w-50 flex">
 					{{ .Render "li" }}
 				</li>
