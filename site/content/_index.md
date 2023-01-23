@@ -1,6 +1,6 @@
 ---
-title: AMAP
-subtitle: Helia
+title: AMAP Helia
+subtitle: Des citoyens solidaires avec leur producteur
 image: /img/dessin-final.jpg
 blurb:
   heading: Quel est le principe ?
