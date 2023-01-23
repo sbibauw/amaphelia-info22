@@ -14,15 +14,15 @@ describe('base checks on Index page', () => {
   })
 
   it('navigates to the Nouvelles page', () => {
-    cy.get('a[href="/nouvelles"]').eq(0).click();
-    cy.url().should("include", "/nouvelles")
+    cy.get('a[href="/nouvelle"]').eq(0).click();
+    cy.url().should("include", "/nouvelle")
     cy.get('h1').contains(/Dernières nouvelles/i)
   })
 })
 
 describe('validate Nouvelles', () => {
   it('should have 7 posts', () => {
-    cy.visit('/nouvelles')
+    cy.visit('/nouvelle')
     cy.get('ul#blog-list li').should('have.length', 7);
   })
 })

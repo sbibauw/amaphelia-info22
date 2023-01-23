@@ -4,7 +4,13 @@
 		<h2 class="f3 b lh-title mb3">Dernières nouvelles</h1>
 
 		<div class="w-100 flex-ns mhn1-ns flex-wrap mb3">
-			{{ range first 4 (where .Pages "Type" "nouvelles") }}
+			{{ range first 4 (where .Data.Pages "Type" "nouvelle") }}
+				<div class="ph1-ns w-50-ns flex">
+					{{ .Render "li" }}
+				</div>
+			{{ end }}
+
+			{{ range first 4 (where .Pages "Type" "nouvelle") }}
 				<div class="ph1-ns w-50-ns flex">
 					{{ .Render "li" }}
 				</div>
@@ -12,7 +18,7 @@
 		</div>
 
 		<div class="tc">
-			<a href="/nouvelles" class="btn raise">Toutes les nouvelles</a>
+			<a href="/nouvelle" class="btn raise">Toutes les nouvelles</a>
 		</div>
 
 	</div>
