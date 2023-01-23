@@ -1,4 +1,4 @@
-describe('empty spec', () => {
+describe('base checks on Index page', () => {
   beforeEach(() => {
     cy.visit('/')
   })
